@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ДенталМ - Стоматология в Воронеже</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="logo.PNG" alt="ДенталМ Логотип" style="width: 50px; height: 50px; margin-right: 10px;">
+                    <span>ДенталМ</span>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="active">Главная</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="prices.html">Цены</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header-contacts">
+                    <div class="phones">
+                        <a href="tel:+79525540967" class="phone">8-952-554-09-67</a>
+                        <a href="tel:+79081329760" class="phone">8-908-132-97-60</a>
+                    </div>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Background Image -->
+    <section class="hero" style="background-image: linear-gradient(rgba(0, 102, 204, 0.8), rgba(0, 168, 232, 0.8)), url('hero.jpg'); background-size: cover; background-position: center;">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Стоматологическая клиника в Воронеже</h1>
+                <p class="hero-subtitle">Здоровье ваших зубов - наша забота!</p>
+                <div class="hero-info">
+                    <div class="info-box">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Запись на приём</strong>
+                            <p>8-952-554-09-67</p>
+                            <p>8-908-132-97-60</p>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Мы работаем</strong>
+                            <p>Будние дни: с 10.00 до 20.00</p>
+                            <p>Выходные дни: с 11:00 до 17:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">О нашей клинике</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Специалисты кабинета оказывают консультации и ведут прием по направлениям: <strong>Терапевтическая стоматология</strong>, <strong>Парадонтология</strong>, <strong>Ортопедическая стоматология</strong>, <strong>Профессиональная гигиена полости рта</strong>.</p>
+                    <p>За более подробной консультацией можете обратитесь к нашему специалисту.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-preview">
+        <div class="container">
+            <h2 class="section-title">Наши услуги</h2>
+            <div class="services-grid">
+                
+                <!-- Терапевтическая стоматология -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <h3>Терапевтическая стоматология</h3>
+                    <p>Мы занимаемся лечением кариеса, лечением периодонтита, парадонтологией, профессиональной гигиеной полости рта, реставрацией зубов, отбеливанием, герметизацией фиссур.</p>
+                </div>
+
+                <!-- Ортопедическая стоматология -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>Ортопедическая стоматология</h3>
+                    <p>Одно из наших направлений - ортопедическая стоматология. Это любые виды протезов, изготовляемые на самом современном оборудовании с использованием современных импортных материалов.</p>
+                </div>
+
+                <!-- Парадонтология -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Парадонтология</h3>
+                    <p>Мы используем современные технологии лечения в области парадонтологии.</p>
+                </div>
+
+                <!-- Профессиональная гигиена -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spray-can"></i>
+                    </div>
+                    <h3>Профессиональная гигиена полости рта</h3>
+                    <p>Снятие зубных отложений с помощью ультразвука, чистка и полировка зубов.</p>
+                </div>
+
+            </div>
+            <div class="text-center">
+                <a href="services.html" class="btn btn-primary">Подробнее об услугах</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2 class="section-title">Наша клиника</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="service1.jpg" alt="Стоматологическая клиника">
+                </div>
+                <div class="gallery-item">
+                    <img src="service2.jpg" alt="Кабинет стоматолога">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ДенталМ</h3>
+                    <p>Профессиональная стоматологическая помощь в Воронеже</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> г. Воронеж, ул. Антонова-Овсеенко 31</p>
+                    <p><i class="fas fa-phone"></i> 8-952-554-09-67</p>
+                    <p><i class="fas fa-phone"></i> 8-908-132-97-60</p>
+                    <p><i class="fas fa-envelope"></i> dentalm@mail.ru</p>
+                </div>
+                <div class="footer-section">
+                    <h4>График работы</h4>
+                    <p>Будние дни: с 10.00 до 20.00</p>
+                    <p>Выходные дни: с 11:00 до 17:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ДенталМ. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
